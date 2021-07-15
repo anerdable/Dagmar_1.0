@@ -12,7 +12,8 @@
     "plugin:import/typescript",
     "plugin:functional/lite",
     "prettier",
-    "prettier/@typescript-eslint"
+    "prettier/@typescript-eslint",
+    "project: Dagmar/tsconfig.json"
   ],
   "globals": { "BigInt": true, "console": true, "WebAssembly": true },
   "rules": {
@@ -31,4 +32,5 @@
       { "ignoreDeclarationSort": true, "ignoreCase": true }
     ]
   }
+  
 }
